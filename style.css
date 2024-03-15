@@ -1,8 +1,10 @@
 html {
   font-size: 24px;
   margin-top: 2em;
+  background: url(./images/padded-1920x1080.jpeg) no-repeat center center fixed;
+  background-size: cover;
 }
-img {
+header img {
   width: 900px;
 }
 
@@ -13,11 +15,12 @@ nav {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: cornflowerblue;
+  background-color: rgba(20, 58, 107, 0.782);
 }
 nav a {
-  padding: 1em 3em;
+  padding: 1em 4em;
   color: black;
+  font-weight: bold;
 }
 * {
   font-family: Arial, sans-serif;
@@ -36,8 +39,8 @@ header {
 header,
 main,
 footer {
-  margin: 0 auto;
-  max-width: 800px;
+  margin: 1em auto;
+  max-width: 95%;
 }
 header h1 {
   font-size: 3em;
@@ -50,7 +53,7 @@ header h1 {
 h1,
 h2,
 h3 {
-  color: rgba(6, 74, 164, 0.782);
+  color: rgba(20, 58, 107, 0.782);
 }
 header span {
   display: flex;
@@ -70,7 +73,7 @@ h1 {
 h3 {
   display: flex;
   font-size: 1.5em;
-  align-content: center;
+  align-content: left;
   font-weight: bold;
 }
 * {
@@ -80,18 +83,31 @@ h3 {
   display: inline;
 }
 article {
-  background-color: rgb(124, 159, 176);
+  background-color: rgb(55, 127, 120);
   border: black solid 2px;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
-  height: 300px;
-  width: 300px;
+  height: fit-content;
+  width: 400px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
+  grid-template-rows: auto;
   grid-column-gap: 1em;
+}
+#guessingGame img {
+  width: 100%;
+  border: 1px;
+  border-radius: 7px;
+}
+#contactInformation img,
+#articleGithub img,
+#articleFreeCodeCamp img {
+  height: 40px;
 }
