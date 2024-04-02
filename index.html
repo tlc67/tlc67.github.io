@@ -7,111 +7,11 @@
     <title>Kristina Cuevas</title>
   </head>
   <body>
-    <div class="Navbar">
-      <div class="Navbar__Link Navbar__Link-brand">Portfolio</div>
-      <div class="Navbar__Link Navbar__Link-toggle">
-        <i class="fas fa-bars"></i>
-      </div>
-      <nav class="Navbar__Items">
-        <div class="Navbar__Link">About Me</div>
-        <div class="Navbar__Link">Contact Information</div>
-        <div class="Navbar__Link">My Projects</div>
-      </nav>
-      <nav class="Navbar__Items Navbar__Items--right">
-        <div class="Navbar__Link">Random Fun Fact About Me</div>
-        <div class="Navbar__Link">Slide Show</div>
-      </nav>
-    </div>
     <container>
       <header>
         <img src="./images/picture2.jpeg" alt="profile picture" />
         <h1>Kristina Cuevas</h1>
         <span>Communication | Dedication | Mentoring</span>
-        <h2>Random Fun Fact About Me</h2>
-        <p id="fun-fact">Click the button below to view a random fun fact!</p>
-        <button id="show-fact">Show a new fact</button>
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 13</div>
-            <img src="./images/IMG_0782.jpg" style="width: 100%" alt="" />
-            <div class="text">Phineas</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 13</div>
-            <img src="./images/IMG_0992.jpg" style="width: 100%" alt="" />
-            <div class="text">Zym and Rayla</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 13</div>
-            <img src="./images/IMG_2587.jpg" style="width: 100%" alt="" />
-            <div class="text">Marvel</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">4 / 13</div>
-            <img src="./images/IMG_3097.jpg" style="width: 100%" alt="" />
-            <div class="text">Stitch</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">5 / 13</div>
-            <img src="./images/IMG_3100.jpg" style="width: 100%" alt="" />
-            <div class="text">Thor</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">6 / 13</div>
-            <img src="./images/IMG_3941.jpg" style="width: 100%" alt="" />
-            <div class="text">Thor and Yang</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">7 / 13</div>
-            <img src="./images/IMG_4357.jpg" style="width: 100%" alt="" />
-            <div class="text">Oreo</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">8 / 13</div>
-            <img src="./images/IMG_5065.jpg" style="width: 100%" alt="" />
-            <div class="text">Marvel and Thor</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">9 / 13</div>
-            <img src="./images/IMG_5421.jpg" style="width: 100%" alt="" />
-            <div class="text">Little Joe</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">10 / 13</div>
-            <img src="./images/IMG_5839.jpg" style="width: 100%" alt="" />
-            <div class="text">Zelda</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">11 / 13</div>
-            <img src="./images/IMG_6053.jpg" style="width: 100%" alt="" />
-            <div class="text">Rayla</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">12 / 13</div>
-            <img src="./images/IMG_6439.jpg" style="width: 100%" alt="" />
-            <div class="text">Yang</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">13 / 13</div>
-            <img src="./images/IMG_7047.jpg" style="width: 100%" alt="" />
-            <div class="text">Yang</div>
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
         <br />
       </header>
       <main>
@@ -222,6 +122,15 @@
         <a href="#aboutMe">About Me</a>
         <a href="#contactInformation">Contact Information</a>
         <a href="#myProjects">My Projects</a>
+        <section class="dropdown">
+          <button onclick="navDropdown()" class="dropbtn">
+            <img class="dotsImage" src="./images/Dots.png" alt="Menu" />
+          </button>
+          <div id="navDropdown" class="dropdown-content">
+            <a href="funfacts.html">Fun Facts</a>
+            <a href="catphotos.html">Cat Photos</a>
+          </div>
+        </section>
       </nav>
       <footer class="copyright">Copyright &copy; 2024</footer>
     </container>
