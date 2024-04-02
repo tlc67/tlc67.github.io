@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kristina Cuevas</title>
+  </head>
+  <body>
+    <container>
+      <header>
+        <img src="./images/picture2.jpeg" alt="profile picture" />
+        <h1>Kristina Cuevas</h1>
+        <span>Communication | Dedication | Mentoring</span>
+        <br />
+      </header>
+      <main>
+        <h2>Random Fun Fact About Me</h2>
+        <p id="fun-fact">Click the button below to view a random fun fact!</p>
+        <button id="show-fact">Show a new fact</button>
+      </main>
+      <nav>
+        <a href="index.html">Home</a>
+        <section class="dropdown">
+          <button onclick="navDropdown()" class="dropbtn">
+            <img class="dotsImage" src="./images/Dots.png" alt="Menu" />
+          </button>
+          <div id="navDropdown" class="dropdown-content">
+            <a href="funfacts.html">Fun Facts</a>
+            <a href="catphotos.html">Cat Photos</a>
+          </div>
+        </section>
+      </nav>
+      <footer class="copyright">Copyright &copy; 2024</footer>
+    </container>
+    <script src="./index.js"></script>
+    <script src="./funfacts.js"></script>
+  </body>
+</html>
