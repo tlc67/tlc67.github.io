@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kristina Cuevas</title>
+  </head>
+  <body>
+    <container>
+      <header>
+        <img src="./images/picture2.jpeg" alt="profile picture" />
+        <h1>Kristina Cuevas</h1>
+        <span>AstroKids Adventures</span>
+        <br />
+      </header>
+      <main>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img
+              src="./images/Screenshot 2024-05-12 205714.png"
+              style="width: 100%"
+              alt=""
+            />
+            <div class="text">Home Page</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img
+              src="./images/Screenshot 2024-05-12 205957.png"
+              style="width: 100%"
+              alt=""
+            />
+            <div class="text">Home Page Text</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img
+              src="./images/Screenshot 2024-05-12 210156.png"
+              style="width: 100%"
+              alt=""
+            />
+            <div class="text">Nasa Daily Image</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img
+              src="./images/Screenshot 2024-05-12 210237.png"
+              style="width: 100%"
+              alt=""
+            />
+            <div class="text">Joke of the Day</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img
+              src="./images/Screenshot 2024-05-12 210314.png"
+              style="width: 100%"
+              alt=""
+            />
+            <div class="text">Contact Information</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </main>
+      <nav>
+        <a href="index.html">Home</a>
+        <section class="dropdown">
+          <button onclick="navDropdown()" class="dropbtn">
+            <img class="dotsImage" src="./images/Dots.png" alt="Menu" />
+          </button>
+          <div id="navDropdown" class="dropdown-content">
+            <a href="jac-spa.html">Jac Enterprises Slideshow</a>
+            <a href="budgeting-final.html">Budgeting Final Slideshow</a>
+          </div>
+        </section>
+      </nav>
+      <footer class="copyright">Copyright &copy; 2024</footer>
+    </container>
+    <script src=".index.js"></script>
+    <script src="./jac-spa.js"></script>
+  </body>
+</html>
