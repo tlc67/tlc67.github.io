@@ -38,7 +38,7 @@ nav a {
   padding: 0;
 }
 header {
-  padding: 15em 0 2em 0;
+  padding: 5em 0 2em 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,8 +47,8 @@ header {
 header,
 main,
 footer {
-  margin: 1em auto;
-  max-width: 95%;
+  margin: 0em auto;
+  max-width: 90%;
 }
 header h1 {
   font-size: 3em;
@@ -224,7 +224,7 @@ h2 {
   z-index: 1;
 }
 .dropdown-content a {
-  color: ivory;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
