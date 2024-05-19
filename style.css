@@ -50,8 +50,7 @@ header {
 }
 
 header,
-main,
-footer {
+main {
   margin: 0em auto;
   max-width: 90%;
 }
@@ -102,6 +101,23 @@ h3 {
   display: inline;
 }
 
+.contactInformation {
+  margin: 20px;
+}
+
+.contactInformation h1 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 30px; /* Adjust to align with the header */
+}
+
+li {
+  margin-bottom: 10px;
+}
+
 article {
   background-color: rgb(43, 121, 145);
   border: black solid 2px;
@@ -113,6 +129,10 @@ article {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+section {
+  margin-bottom: 75px;
 }
 
 #projects {
@@ -223,4 +243,8 @@ h2 {
 
 .show {
   display: block;
+}
+
+footer {
+  text-align: center;
 }
